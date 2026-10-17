@@ -1,0 +1,24 @@
+* {
+    --primario : #8f4040;
+    --secundario : #587a58;
+    --acento : #525294;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #9e9898;
+}
+
+.title {
+    color: var(--primario);
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--acento);
+    font-weight:560;
+}
+
+
+
