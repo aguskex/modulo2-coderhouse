@@ -1,23 +1,61 @@
 * {
-    --primario : #8f4040;
-    --secundario : #587a58;
-    --acento : #525294;
+    --primario : #2d2415;
+    --secundario : #6f5834;
+    --acento : #bc9e71;
     font-family: "Roboto Mono", sans-serif;
     font-weight: 200;
     font-style: normal;
-    background-color: #9e9898;
+    background-color: var(--acento);
 }
 
 .title {
     color: var(--primario);
     font-weight: bold;
     font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+
+}
+
+article {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 header a {
     text-decoration: none;
-    color: var(--acento);
+    color: var(--secundario);
     font-weight:560;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 4rem;
+    font-size: 1.4rem;
+}
+
+header nav ul li {
+    border-radius: 5px;
+    border-color: var(--primario);
+    border-width: 4px;
+    border-style: ridge;
+}
+
+.imagen {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
 }
 
 
